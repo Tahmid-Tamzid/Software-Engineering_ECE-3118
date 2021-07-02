@@ -70,4 +70,23 @@ $ git merge <query>
  ```
  $ git mergetool 
  ```
- 
+ # Git Pull
+ The term pull is used to receive data from GitHub. It fetches and merges changes from the remote server to working directory. The git pull command is used to pull a repository.
+ ```
+ $ git pull <option> [<repository URL><refspec>...]  
+ ```
+ # Git Pull Remote Branch
+ Git allows fetching a particular branch. Fetching a remote branch is a similar process as in git pull command. The only difference is we have to copy the URL of the particular branch we want to pull. To do so, we will select a specific branch.
+ ```
+ $ git pull <remote branch URL> 
+ ```
+ # Git Push
+ The push term refers to upload local repository content to a remote repository. Pushing is an act of transfer commits from local repository to a remote repository. Pushing is capable of overwriting changes.
+ ```
+ $ git push <option> [<Remote URL><branch name><refspec>...]  
+ ```
+ # Git Push Origin Master
+ Git push origin master is a special command-line utility that specifies the remote branch and directory. When there is multiple branches and directory, then this command assists in determining main branch and repository.
+ ```
+ $ git push origin master  
+ ```
